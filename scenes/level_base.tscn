@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/tilemaps/dungeon_tileset.tres" type="TileSet" id=1]
+
+[node name="level_base" type="Node2D"]
+
+[node name="background" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+format = 1
+
+[node name="foreground" type="TileMap" parent="."]
+format = 1
